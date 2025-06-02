@@ -1,15 +1,4 @@
-# AI-Driven-Cancer-EHR-Analysis-Information-Retrieval-Structured-Data-Extraction
-# EHR Treatment Retrieval
-AI-Driven Cancer EHR Analysis: Information Retrieval &amp; Structured Data Extraction
 
-## Overview
-This project focuses on extracting and retrieving relevant treatment records from Electronic Health Records (EHR) data. It processes multiple datasets, answers specific queries regarding patient treatments, and evaluates the system's performance by calculating and visualizing similarity scores. The performance of the retrieval system is assessed by plotting these scores for each query across different datasets.
-
-## Features
-- **Data Preprocessing**: Cleans and processes EHR data by removing sensitive patient information (PHI) and extracting relevant treatment sections.
-- **Query-based Retrieval**: Retrieves the most relevant treatment records based on predefined queries, using a sentence-transformer model to encode the data.
-- **Performance Evaluation**: Visualizes the performance of the system by plotting the top similarity scores for each query across different datasets.
-- **Radiation Treatment Detection**: Identifies radiation-related treatments from the EHR data using predefined patterns.
 
 ## Dataset
 The project works with datasets in JSON format, where each dataset contains patient treatment records. Example files include:
